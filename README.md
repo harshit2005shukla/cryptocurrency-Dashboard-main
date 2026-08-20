@@ -1,105 +1,41 @@
-<h1 align="center">
-  <br />
-  <a href="https://readers-space.netlify.app/">
-      <img src="https://user-images.githubusercontent.com/63870995/209679174-1bada3c7-643d-45e7-a1af-2a9759edd869.png" width="200"/>
-  </a>
-  <br/>
-  Cryptocurrency Dashboard
-  <h3 align="center">
-    Discover Cryptos, Charts, And MarketCaps !
-</h3>
+# 🪙 Cryptocurrency Dashboard
 
-<br/>
+A real-time, fully responsive Cryptocurrency Dashboard application built using modern web technologies. This application allows users to monitor crypto market trends, view interactive charts, and manage data efficiently.
 
+## 🚀 Features
+- **Real-time Data:** Live price updates and market capitalization.
+- **Interactive Charts:** Detailed visual insights using `react-chartjs-2` and `chart.js`.
+- **State Management:** Powered by Redux Toolkit for seamless data flow.
+- **Modern UI:** Clean and responsive design built with Tailwind CSS.
+- **Smooth Animations:** Integrated with Lottie React for interactive animations.
 
-<!-- TABLE OF CONTENTS -->
-<details>
-    <summary>Content</summary>
-    <ol>
-        <li><a href="#introduction">Introduction</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#technology-languages-used">Technology/ Languages Used</a></li>
-        <li><a href="#how-to-run-locally">How to Run Locally</a></li>
-        <li><a href="#how-to-contribute">How to Contribute</a></li>
-    </ol>
-</details>
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **State Management:** Redux Toolkit (`@reduxjs/toolkit`)
+- **Icons & Visuals:** FontAwesome, Lottie React
+- **HTTP Client:** Axios (for API fetching)
 
-<!-- Project Introduction -->
-## **Introduction**
-<p>
-    Cryptocurrency Dashboard is a web application that allows users to view cryptocurrency trends and their past price through graphical visualization.</p>
-<br />
-Visit <a href="https://cryptocurrency-dashboard-eight.vercel.app/">Cryptocurrency-Dashboard</a> and Discover Cryptos, Charts, and MarketCaps!
+## 📦 Installation & Setup
 
-![DashBoard home page](https://user-images.githubusercontent.com/63870995/210148826-04032249-b0a7-4958-8a53-d1a5953bab92.png)
+Follow these steps to run the project locally:
 
-<br />
-<!-- FEATURES -->
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
+   ```
 
-## **Features**
-- user can view data visuals through dynamic graphs
-- user can search cryptos 
-- user can sort cryptos
-- user can view Live previews of cryptos
-- user can view app on Fullscreen mode
-- user can choose Chart types
-- user can click on Duration buttons to view past prices and current prices of cryptos through graphs. 
-- Sidebar indicates profit/loss percentage on 24 hour basis
-- Crypto Exchange: allows users to convert different crypto currencies into other currencies
-- Responsive
-- sidebar pagination
+2. **Navigate to the project directory:**
+   ```bash
+   cd cryptocurrency-dashboard-main
+   ```
 
-<br />
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-<!-- BUILT WITH -->
-
-## **Technology/ Languages Used**
-
-- Tailwind CSS
-- Redux
-- Redux Thunk
-- ReactJS
-- ContextApi
-- Chartjs
-- CoinGeckoAPI
-
-<br />
-<!-- HOW TO RUN LOCALLY -->
-
-## **How to Run locally**
-- To run this project locally, use the following command in your CLI:
-
-```bash
-  git clone https://github.com/pavandeveloperr/cryptocurrency-dashboard.git
-```
-- Open your favorite code editor and run locally!
-```bash
-  npm install
-  npm start
-```
-- Go to browser and search localhost:3000
-
-<br />
-<!-- CONTRIBUTING -->
-
-## **How to Contribute**
-
-Contributions and ideas to this library are more than welcome! <br />
-If you want to contribute or have ideas for this project, just fork the repo and create a PR. If you spot a bug, you are more than welcome to open an issue! Do ⭐ this project! 
-
-### Contribution Guidelines
-1. Fork the Project
-2. Creata a branch for your feature/ idea. Please do give a good name for the branch that tells about the feature.
-3. Stage your changes
-4. Commit your changes
-5. Push the changes to your remote branch
-6. Open and Create a PR
-
-<br />
-  
-## Note
-  <p> This capstone project is associated with <a href="https://www.almabetter.com">Almabetter</a>.</p>
-
-## Disclaimer
-<p> I don't own any of the logos or images used in the project all belongs to their respected owners. </p>
-  
+4. **Start the development server:**
+   ```bash
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
