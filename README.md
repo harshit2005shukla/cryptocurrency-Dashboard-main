@@ -1,4 +1,4 @@
-# 🪙 Cryptocurrency Dashboard
+# 🪙 Cryptocurrency Tracking & Portfolio Dashboard
 
 A real-time, fully responsive Cryptocurrency Dashboard application built using modern web technologies. This application allows users to monitor crypto market trends, view interactive charts, and manage data efficiently.
 
